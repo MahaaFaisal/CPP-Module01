@@ -1,6 +1,6 @@
 CPP = c++
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
-SRCS = Harl.cpp Harl.hpp main.cpp
+SRCS = Harl.cpp main.cpp
 NAME = harl
 
 all: $(NAME)
