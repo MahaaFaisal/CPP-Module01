@@ -11,7 +11,7 @@ void	lineToOstream(std::string line, std::ofstream &outStream, std::string const
 	{
 		line.erase(oc, s1Len);
 		line.insert(oc, s2);
-		oc = line.find(s1, oc + 1);
+		oc = line.find(s1, oc + s2.length());
 	}
 	outStream << line << std::endl;
 }
